@@ -43,6 +43,7 @@ if (blueWins) { //playerOne is always blue
     $("#congratsOrSorry").html("<span class='yellow'>Congratulations! You won!</span>")
     $("#gameInfo").addClass("displayNone")
     disableRemainingItems()
+    //return winner
     return winner
   }
   if (redWins) { //red is computer
